@@ -3,10 +3,7 @@ package next.users.model;
 import next.users.dao.User;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.PersistenceContextType;
-import javax.persistence.Query;
+import javax.persistence.*;
 import java.util.List;
 
 /**
